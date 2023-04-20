@@ -1,0 +1,60 @@
+body{
+    background-color:rgba(0,0,0,0.9);
+    box-sizing: border-box;
+}
+h1{
+    color:beige;
+    text-align:center;
+}
+.container{
+    display:flex; 
+    gap:10%;  
+    justify-content: center;
+
+}
+.slot1{
+    background-color:blueviolet;
+    height:200px;
+    width:350px;
+}
+.slot2 {
+    background-color: blueviolet;
+    height:200px;
+    width:350px;
+}
+.slot3 {
+    background-color: blueviolet;
+    height:200px;
+    width:350px;
+}
+.slot4 {
+    position: relative;
+    background-color: blueviolet;
+    width:200px;
+    height:350px;
+}
+.slot5 {
+    background-color: blueviolet;
+    width:200px;
+    height:350px;
+}
+.right-container > * {
+    margin-bottom:20px;
+    color:white;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align:center;
+    font-size:1.5rem;
+
+}
+.left-container>* {
+    margin-bottom: 20px;
+    color:white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align:center;
+    font-size: 1.5rem;
+}
+.left-container{
+    display:flex;
+    gap:20px;
+    align-items: flex-end;
+}
