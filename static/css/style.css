@@ -13,29 +13,24 @@ h1{
 
 }
 .slot1{
-    background-color:blueviolet;
-    height:200px;
+    background-color:#131200;
+    height:150px;
     width:350px;
 }
 .slot2 {
-    background-color: blueviolet;
-    height:200px;
+    background-color: #131200;
+    height:150px;
     width:350px;
 }
 .slot3 {
-    background-color: blueviolet;
-    height:200px;
+    background-color: #131200;
+    height:150px;
     width:350px;
 }
 .slot4 {
     position: relative;
-    background-color: blueviolet;
-    width:200px;
-    height:350px;
-}
-.slot5 {
-    background-color: blueviolet;
-    width:200px;
+    background-color: #131200;
+    width:150px;
     height:350px;
 }
 .right-container > * {
@@ -46,15 +41,15 @@ h1{
     font-size:1.5rem;
 
 }
-.left-container>* {
-    margin-bottom: 20px;
-    color:white;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    text-align:center;
-    font-size: 1.5rem;
+span{
+    display:block;
+    background-color: crimson;
+    color:#F0EFF4;
+    margin-top:20px;
+    margin-left:auto;
+    margin-right:auto;
+    width:150px;;
 }
-.left-container{
-    display:flex;
-    gap:20px;
-    align-items: flex-end;
+.s1-status{
+    background-color:green;
 }
