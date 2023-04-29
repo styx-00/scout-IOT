@@ -3,7 +3,6 @@
 <head>
     <meta charset="UTF-8">
     <link rel="stylesheet" href="{{ url_for('static',filename='css/style.css') }}">
-    <script src="{{url_for('static',filename='scripts/script.js')}}"></script>
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
@@ -12,11 +11,12 @@
     <h1>THE PARKING SPACE</h1>
     <div class="container">
         <div class="right-container">
-            <div class="slot1">SLOT 1<span class="s1-status">FREE</span></div>
-            <div class="slot2">SLOT 2<span class="s2-status">FREE</span></div>
-            <div class="slot3">SLOT 3<span class="s3-status">FREE</span></div>
-            <div class="slot3">SLOT 4<span class="s4-status">FREE</span></div>
+            <div class="slot1">SLOT 1<span id="s1-status">FREE</span></div>
+            <div class="slot2">SLOT 2<span id="s2-status">FREE</span></div>
+            <div class="slot3">SLOT 3<span id="s3-status">FREE</span></div>
+            <div class="slot3">SLOT 4<span id="s4-status">FREE</span></div>
         </div>
     </div>
+    <script src="{{url_for('static',filename='scripts/script.js')}}"></script>
 </body>
 </html>

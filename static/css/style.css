@@ -43,13 +43,10 @@ h1{
 }
 span{
     display:block;
-    background-color: crimson;
+    background-color: green;
     color:#F0EFF4;
     margin-top:20px;
     margin-left:auto;
     margin-right:auto;
     width:150px;;
-}
-.s1-status{
-    background-color:green;
 }
